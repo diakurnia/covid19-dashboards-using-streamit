@@ -100,11 +100,11 @@ def top_province(sort, n_province=15):
 
 top_province(False, nums)
 
-hide_st_style = """
-            <style>
-            #MainMenu {visibility: hidden;}
-            footer {visibility: hidden;}
-            header {visibility: hidden;}
-            </style>
-            """
-st.markdown(hide_st_style, unsafe_allow_html=True)
+# hide_st_style = """
+#             <style>
+#             #MainMenu {visibility: hidden;}
+#             footer {visibility: hidden;}
+#             header {visibility: hidden;}
+#             </style>
+#             """
+# st.markdown(hide_st_style, unsafe_allow_html=True)
