@@ -248,3 +248,5 @@ def plot_province(jenis, n_province):
     )
     st.plotly_chart(fig, use_container_width=True)
 plot_province(jenis, nums)
+
+# note
